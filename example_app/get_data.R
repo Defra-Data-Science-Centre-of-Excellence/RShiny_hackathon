@@ -4,5 +4,11 @@ library(dplyr)
 penguins <- read.csv("/dbfs/mnt/lab/unrestricted/R_training/penguins.csv")
 
 # clean data - remove NA values
-data <- penguins %>% filter(!is.na(sex))
+data <- penguins %>% 
+  filter(!is.na(sex)) 
 
+# create dataset for average flipper length
+flipper_length <- data %>% 
+  select(species, flipper_length_mm, year) %>% 
+  group_by(species, year) %>% 
+  summarise(mean_flipper_mm = mean(flipper_length_mm))
