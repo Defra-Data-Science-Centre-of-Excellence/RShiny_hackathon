@@ -1,3 +1,5 @@
+# script to load in data and prepare for use in the app
+
 library(dplyr)
 
 # load data
@@ -12,3 +14,14 @@ flipper_length <- data %>%
   select(species, flipper_length_mm, year) %>% 
   group_by(species, year) %>% 
   summarise(mean_flipper_mm = mean(flipper_length_mm))
+
+
+# create separate dataset for each species
+adelie <- data %>% 
+  filter(species == "Adelie")
+
+gentoo <- data %>% 
+  filter(species == "Gentoo")
+
+chinstrap <- data %>% 
+  filter(species == "Chinstrap")
