@@ -17,8 +17,6 @@ Example Shiny app for the DASH Hackathon using the penguins dataset (found here:
 
 -  add another input for sex, see [different types of inputs](https://mastering-shiny.org/basic-ui.html)
 
--  add a theme to your dashboard: [Theming](https://rstudio.github.io/bslib/articles/theming/)
-
 -  use CSS to style your dashboard: [Using custom CSS in your app](https://shiny.posit.co/r/articles/build/css/), [CSS for Shiny](https://unleash-shiny.rinterface.com/beautify-css)
 
 -  there are other ways you can add themes to your dashboard too, see chapters on [Bootstrap](https://mastering-shiny.org/action-layout.html#bootstrap) and [Themes](https://mastering-shiny.org/action-layout.html#themes)
