@@ -1,6 +1,11 @@
 # shiny_example
 
-Example Shiny app for the DASH Hackathon using the penguins dataset (found here: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv)
+-  Example Shiny app for the DASH Hackathon using the penguins dataset (found here: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv)
+
+-  Instructions on setting up git in RStudio: [Chapter 8 GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up)
+
+-  Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Connect Server](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/positconnect.html#ugrsc)
+
 
 
 ## RShiny guidance
