@@ -1,22 +1,40 @@
 # shiny_example
 
-
-# RShiny guidance
-
-[Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
-
-[Mastering Shiny](https://mastering-shiny.org/index.html)
+Example Shiny app for the DASH Hackathon using the penguins dataset (found here: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv)
 
 
-# Dashboarding guidance
+## RShiny guidance
 
-[Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
+-  [Mastering Shiny](https://mastering-shiny.org/index.html)
+
+-  [Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
 
 
-# Further development
 
--  add another input for sex, could try to use radio buttons?
+## Further development
 
--  add CSS to style your dashboard
+-  populate the pages for the other penguin species
+
+-  add another input for sex, see [different types of inputs](https://mastering-shiny.org/basic-ui.html)
+
+-  add a theme to your dashboard: [Theming](https://rstudio.github.io/bslib/articles/theming/)
+
+-  use CSS to style your dashboard: [Using custom CSS in your app](https://shiny.posit.co/r/articles/build/css/), [CSS for Shiny](https://unleash-shiny.rinterface.com/beautify-css)
+
+-  there are other ways you can add themes to your dashboard too, see chapters on [Bootstrap](https://mastering-shiny.org/action-layout.html#bootstrap) and [Themes](https://mastering-shiny.org/action-layout.html#themes)
+
+-  For bigger dashboards, organising your code into functions and modules will make the app more efficient. See [Best practices](https://mastering-shiny.org/scaling-intro.html) for more information
+
+
+
+## Dashboarding guidance
+
+-  [Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
+
+
+
+## Examples of existing Shiny dashboards
+
+-  [Wider Impacts of COVID-19 on Health Tool](https://analytics.phe.gov.uk/apps/covid-19-indirect-effects/)
 
 
