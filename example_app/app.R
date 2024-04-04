@@ -3,8 +3,8 @@ library(shiny)
 library(plotly)
 library(dplyr)
 library(DT)
-source("get_data.R")
-source("utils.R")
+source("R/get_data.R")
+source("R/utils.R")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
