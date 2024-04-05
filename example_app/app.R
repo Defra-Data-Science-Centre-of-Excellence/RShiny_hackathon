@@ -10,6 +10,9 @@ source("R/utils.R")
 # of your app (the front end)
 ui <- fluidPage(
   
+  # add styling to the app using a css stylesheet
+  includeCSS("www/styles.css"),
+  
   # create navigation bar for page
   navbarPage(
     # Title of whole app

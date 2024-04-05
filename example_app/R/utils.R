@@ -1,4 +1,5 @@
 # Functions that will be used in the app
+#install.packages("afcolours")
 library(afcolours)
 
 # scatter chart for bill vs flipper length
