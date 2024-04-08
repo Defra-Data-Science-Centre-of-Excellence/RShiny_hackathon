@@ -1,22 +1,46 @@
-# shiny_example
+# R Shiny on the DASH platform
 
--  Example Shiny app for the DASH Hackathon using the penguins dataset (found here: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv)
+Authors: Kate Hutchinson, Margarita Tsakiridou, Fluke Kasemsubphaisarn
 
--  Instructions on setting up git in RStudio: [Chapter 8 GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up)
+## 1. Introduction
 
--  Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Connect Server](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/positconnect.html#ugrsc)
+Thank you for signing up to the DASH Hackathon! Here is some important informaiton for the day:
 
+-  We assume that you are already onboarded to the platform. If true, you should be able to access our [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/#content)
 
+-  The point of this hackathon is to help you create a finished product on the DASH platfrom. We have prepared this example using sample datasets but you are very welcome to use other datasets on the DASH platfrom or your own data to create your product.
 
-## RShiny guidance
+## 2. Setting the scene
+
+### 2.1 Accessing RStudio & DASH data
+
+-  To open RStudio on DASH please follow the instructions in the playbook: [Accessing RStudio](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/rstudio.html)
+
+-  If you haven't already set up git in R, you will need to do this before starting so that you can back up your code in a repository, see [Chapter 9 GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up). If you're new to using git, there are [links to more resources on the use of GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#uggithub).
+
+-  [Chapter 6.4](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/rstudio.html#rsdata) provides a detailed walkthrough on accessing data from RStudio. In the example app we have used the penguins dataset which can be found at this file path: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv
+
+### 2.2 Resources
+
+#### R Shiny guidance
+
+There's a wealth of RShiny training materials online, as well as lots of other users. Google is great for finding the answer to most questions, particularly on stack overflow. Some particularly useful resources for getting started are:
 
 -  [Mastering Shiny](https://mastering-shiny.org/index.html)
 
 -  [Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
 
+-  There's also a course on datacamp. If you don't already have an account, sign up here: [Datacamp sign up link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership)
 
+#### Dashboarding guidance
 
-## Further development
+-  [Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
+
+## 3. Example R Shiny app
+
+We have created an R Shiny app with the penguins dataset as an example you can refer to if you're struggling to get started. There are comments explaining what each part of the code is doing. 
+
+If you want to use this to get started, here are some possible next steps you could take to further develop the dashboard:
 
 -  populate the pages for the other penguin species
 
@@ -29,15 +53,17 @@
 -  For bigger dashboards, organising your code into functions and modules will make the app more efficient. See [Best practices](https://mastering-shiny.org/scaling-intro.html) for more information
 
 
+## 4. Next steps
 
-## Dashboarding guidance
+### 4.1 Publishing
 
--  [Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
+-  Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Connect Server](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/positconnect.html#ugrsc)
 
+### 4.2 Sharing your dashboard
 
+In your teams, we would like you to present your finished products at the next data science session on Wednesday 15th May. ????? need details on this
 
-## Examples of existing Shiny dashboards
+## 5. Contacts
 
--  [Wider Impacts of COVID-19 on Health Tool](https://analytics.phe.gov.uk/apps/covid-19-indirect-effects/)
-
+If you have any issues after the day of the hackathon, feel free to get in touch with us directly or email datascience@defra.gov.uk and someone will be in touch
 
