@@ -1,8 +1,12 @@
 # load packages
+#install.packages("afcolours") # you will need to install this package if you haven't already
+
 library(shiny)
 library(plotly)
 library(dplyr)
 library(DT)
+library(afcolours)
+
 source("R/get_data.R")
 source("R/utils.R")
 
