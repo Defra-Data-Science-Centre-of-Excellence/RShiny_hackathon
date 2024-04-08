@@ -78,7 +78,7 @@ server <- function(input, output) {
   output$plot <- renderPlotly({
 
     # filter data to the selected year
-    plot_data <- data %>% filter(year == selected_year())
+    plot_data <- data %>% filter(year == selected_year() & species == "Adelie")
 
     # create plotly plot
     plot_data %>%
