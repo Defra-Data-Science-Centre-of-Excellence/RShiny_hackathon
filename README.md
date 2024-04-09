@@ -8,7 +8,7 @@ Thank you for signing up to the DASH Hackathon! Here is some important informait
 
 -  We assume that you are already onboarded to the platform. If true, you should be able to access our [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/#content)
 
--  The point of this hackathon is to help you create a finished product on the DASH platfrom. We have prepared this example using sample datasets but you are very welcome to use other datasets on the DASH platfrom or your own data to create your product.
+-  The point of this hackathon is to help you create a finished product on the DASH platfrom. We have prepared this example using a sample dataset but you are very welcome to use other datasets on the DASH platfrom or your own data to create your product.
 
 ## 2. Setting the scene
 
@@ -19,6 +19,8 @@ Thank you for signing up to the DASH Hackathon! Here is some important informait
 -  If you haven't already set up git in R, you will need to do this before starting so that you can back up your code in a repository, see [Chapter 9 GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up). If you're new to using git, there are [links to more resources on the use of GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#uggithub).
 
 -  [Chapter 6.4](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/rstudio.html#rsdata) provides a detailed walkthrough on accessing data from RStudio. In the example app we have used the penguins dataset which can be found at this file path: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv
+
+-  NOTE: the posit server cannot see the datalake, so you will need to load your data from the datalake and save it in a data folder within your project. Before doing this ensure to add your data folder to your [gitignore file](https://git-scm.com/docs/gitignore), as best practice is to not save any data on GitHub. 
 
 ### 2.2 Resources
 
@@ -57,13 +59,12 @@ If you want to use this to get started, here are some possible next steps you co
 
 ### 4.1 Publishing
 
--  Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Connect Server](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/positconnect.html#ugrsc)
+Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Connect Server](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/positconnect.html#ugrsc). Once published the default is that your dashboard will only be visible to you. On posit you can control who to share your dashboard with. 
 
-### 4.2 Sharing your dashboard
+### 4.2 Advertising
 
-In your teams, we would like you to present your finished products at the next data science session on Wednesday 15th May. ????? need details on this
+We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to one of our Data Science Sessions or User Forums to share your experience and work with more colleagues. This is part of our efforts to encourage users to familiarize and use DASH, as we move to our live phase of the DASH program.
 
-## 5. Contacts
+-  [DASH Sharepoint page](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
 
-If you have any issues after the day of the hackathon, feel free to get in touch with us directly or email datascience@defra.gov.uk and someone will be in touch
-
+-  Please get in touch at datascience@defra.gov.uk if you have any questions or suggestions
