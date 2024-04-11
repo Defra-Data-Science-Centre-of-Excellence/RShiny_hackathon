@@ -1,6 +1,11 @@
 # script to load in data and prepare for use in the app
 library(dplyr)
 
+# loading the data from the data lake works when you run the app locally, 
+# but to publish on the posit server you need to have the data saved 
+# in your environment, so the code below needs running once before 
+# publishing. after that you just need to load the data from the Data folder
+
 # load data
 # penguins <- read.csv("/dbfs/mnt/lab/unrestricted/R_training/penguins.csv")
 # 

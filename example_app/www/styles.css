@@ -1,3 +1,6 @@
+/* this file controls the styling of the app */
+
+/* make the navigation bar black, with bold white font*/ 
 .navbar {
   background-color: #000000;
   color: white !important;
@@ -17,6 +20,7 @@
   color: white !important;
 }
 
+/* when the links in the nav bar are hovered over or selected, make the background green */
 .navbar-nav li a:hover, .navbar-nav > .active > a {
 color: white !important;
 background-color:#00A33B !important;

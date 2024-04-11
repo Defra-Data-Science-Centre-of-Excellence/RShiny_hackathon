@@ -1,6 +1,5 @@
 # load packages
 #install.packages("afcolours") # you will need to install this package if you haven't already
-
 library(shiny)
 library(plotly)
 library(dplyr)
@@ -14,11 +13,12 @@ source("R/utils.R")
 # of your app (the front end)
 ui <- fluidPage(
   
-  # add styling to the app using a css stylesheet
+  # you have the option to add styling to the app using a css stylesheet
   includeCSS("www/styles.css"),
   
-  # create navigation bar for page
+  # create navigation bar for app
   navbarPage(
+    
     # Title of whole app
     "Penguins",
     
@@ -30,7 +30,7 @@ ui <- fluidPage(
                  # dropdown to choose the year, populated by the years in the dataset:
                  # the first argument here "year" is the id, which is how we will 
                  # reference this input in the server function
-                 # the label just gives a title above the dropdown
+                 # the label gives a title above the dropdown
                  # the choices are what will be listed in the dropdown, so we 
                  # give it the list of years in the dataset
                  selectInput(
@@ -67,7 +67,7 @@ server <- function(input, output) {
   
   # set the year for the whole page based on what is selected in the dropdown
   # this makes selected_year a reactive expression
-  # so from here we reference it like a function as selected_year()
+  # so from here we reference it like a function: selected_year()
   # the input$year comes from the id we set in the ui function
   selected_year <- reactive({
     input$year
@@ -80,7 +80,7 @@ server <- function(input, output) {
     # filter data to the selected year
     plot_data <- data %>% filter(year == selected_year() & species == "Adelie")
 
-    # create plotly plot
+    # create plotly plot using a function created in R/utils.R
     plot_data %>%
       bill_flipper_plot(species = "Adelie")
 
