@@ -4,7 +4,7 @@ Authors: Kate Hutchinson, Margarita Tsakiridou, Fluke Kasemsubphaisarn
 
 ## 1. Introduction
 
-Thank you for signing up to the DASH Hackathon! Here is some important informaiton for the day:
+Thank you for signing up to the DASH Hackathon! Here is some important information for the day:
 
 -  We assume that you are already onboarded to the platform. If true, you should be able to access our [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/#content)
 
