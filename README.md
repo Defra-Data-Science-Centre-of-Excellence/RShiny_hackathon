@@ -26,7 +26,7 @@ Thank you for signing up to the DASH Hackathon! Here is some important informati
 
 #### R Shiny guidance
 
-There's a wealth of RShiny training materials online, as well as lots of other users. Google is great for finding the answer to most questions, particularly on stack overflow. Some particularly useful resources for getting started are:
+There's a wealth of RShiny training materials online, as well as lots of other users. Google is great for finding the answer to most questions, particularly on stack overflow. Some useful resources for getting started are:
 
 -  [Mastering Shiny](https://mastering-shiny.org/index.html)
 
@@ -67,4 +67,4 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 
 -  [DASH Sharepoint page](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
 
--  Please get in touch at datascience@defra.gov.uk if you have any questions or suggestions
+-  Please get in touch with datascience@defra.gov.uk if you have any questions or suggestions
