@@ -8,7 +8,7 @@ Thank you for signing up to the DASH Hackathon! Here is some important informati
 
 -  We assume that you are already onboarded to the platform. If true, you should be able to access our [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/#content)
 
--  The point of this hackathon is to help you create a finished product on the DASH platfrom. We have prepared this example using a sample dataset but you are very welcome to use other datasets on the DASH platfrom or your own data to create your product.
+-  The point of this hackathon is to help you create a finished product on the DASH platfrom. We have prepared this example using a sample dataset but you are very welcome to use other datasets on the DASH platform or your own data to create your product.
 
 ## 2. Setting the scene
 
