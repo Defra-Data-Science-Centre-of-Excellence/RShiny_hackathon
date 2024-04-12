@@ -38,7 +38,7 @@ There's a wealth of RShiny training materials online, as well as lots of other u
 
 -  [Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
 
-## 3. Example R Shiny app
+## 3. Developing a product
 
 We have created an R Shiny app with the penguins dataset as an example you can refer to if you're struggling to get started. There are comments explaining what each part of the code is doing. 
 
