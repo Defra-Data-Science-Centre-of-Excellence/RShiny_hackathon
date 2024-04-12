@@ -12,17 +12,7 @@ Thank you for signing up to the DASH Hackathon! Here is some important informati
 
 ## 2. Setting the scene
 
-### 2.1 Accessing RStudio & DASH data
-
--  To open RStudio on DASH please follow the instructions in the playbook: [Accessing RStudio](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/rstudio.html)
-
--  If you haven't already set up git in R, you will need to do this before starting so that you can back up your code in a repository, see [Chapter 9 GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up). If you're new to using git, there are [links to more resources on the use of GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#uggithub).
-
--  [Chapter 6.4](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/rstudio.html#rsdata) provides a detailed walkthrough on accessing data from RStudio. In the example app we have used the penguins dataset which can be found at this file path: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv
-
--  NOTE: the posit server cannot see the datalake, so you will need to load your data from the datalake and save it in a data folder within your project. Before doing this ensure to add your data folder to your [gitignore file](https://git-scm.com/docs/gitignore), as best practice is to not save any data on GitHub. 
-
-### 2.2 Resources
+### 2.1 Resources
 
 #### R Shiny guidance
 
@@ -37,6 +27,16 @@ There's a wealth of RShiny training materials online, as well as lots of other u
 #### Dashboarding guidance
 
 -  [Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
+
+### 2.2 Accessing RStudio & DASH data
+
+-  To open RStudio on DASH please follow the instructions in the playbook: [Accessing RStudio](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/rstudio.html)
+
+-  If you haven't already set up git in R, you will need to do this before starting so that you can back up your code in a repository, see [Chapter 9 GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up). If you're new to using git, there are [links to more resources on the use of GitHub](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#uggithub).
+
+-  [Chapter 6.4](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/rstudio.html#rsdata) provides a detailed walkthrough on accessing data from RStudio. In the example app we have used the penguins dataset which can be found at this file path: /dbfs/mnt/lab/unrestricted/R_training/penguins.csv
+
+-  NOTE: the posit server cannot see the datalake, so you will need to load your data from the datalake and save it in a data folder within your project. Before doing this ensure to add your data folder to your [gitignore file](https://git-scm.com/docs/gitignore), as best practice is to not save any data on GitHub. 
 
 ## 3. Developing a product
 
