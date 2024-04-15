@@ -24,7 +24,7 @@ There's a wealth of RShiny training materials online, as well as lots of other u
 
 -  [Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
 
--  There's also a course on datacamp. If you don't already have an account, sign up here: [Datacamp sign up link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership)
+-  There's also a course on datacamp. If you haven't already, sign up for a free premium account here: [Datacamp sign up link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership)
 
 #### Dashboarding guidance
 
