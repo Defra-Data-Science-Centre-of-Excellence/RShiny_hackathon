@@ -4,6 +4,8 @@ Authors: Kate Hutchinson, Margarita Tsakiridou, Fluke Kasemsubphaisarn
 
 ## 1. Introduction
 
+[![Launch week logo](https://github.com/Defra-Data-Science-Centre-of-Excellence/RShiny_hackathon/blob/main/launch%20banner%20intranet%201.png)](https://defra.sharepoint.com/sites/Community448/SitePages/DASH-Launch-Week.aspx)
+
 Thank you for signing up to the DASH Hackathon! Here is some important information for the day:
 
 -  We assume that you are already onboarded to the platform. If true, you should be able to access our [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/#content)
