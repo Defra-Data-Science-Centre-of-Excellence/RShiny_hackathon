@@ -24,7 +24,7 @@ There's a wealth of RShiny training materials online, as well as lots of other u
 
 -  [Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
 
--  There are also great courses on datacamp. If you haven't already, sign up for a free premium account here: [Datacamp sign up link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership)
+-  There are also great [RShiny courses on datacamp](https://app.datacamp.com/search?q=rshiny). If you haven't already, sign up for a free premium account here: [Datacamp sign up link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership)
 
 #### Dashboarding guidance
 
@@ -69,7 +69,6 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 
 # 5 Useful links
 ## DASH
-- [DASH Sharepoint page](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
 - [DASH SharePoint](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
 - Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
 - Please get in touch with [datascience@defra.gov.uk](mailto:datascience@defra.gov.uk) if you have any questions or suggestions.
@@ -78,6 +77,7 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 
 - [Mastering Shiny](https://mastering-shiny.org/index.html)
 - [Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
+- [RShiny courses on datacamp](https://app.datacamp.com/search?q=rshiny)
 - [Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
 - [Setting UP Git](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up)
 - [GitHub resources](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#uggithub)
