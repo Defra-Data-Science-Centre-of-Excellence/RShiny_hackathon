@@ -65,7 +65,7 @@ Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Co
 
 ### 4.2 Advertising
 
-We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to one of our Data Science Sessions or User Forums to share your experience and work with more colleagues. This is part of our efforts to encourage users to familiarize and use DASH, as we move to our live phase of the DASH program.
+We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to our next Data Science Session (17th May; please sign up [here](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx) to receive invites) to share your experience and work with more colleagues that are currently being onboarded to the DASH platform.
 
 ## 5. Useful links
 
