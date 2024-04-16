@@ -24,7 +24,7 @@ There's a wealth of RShiny training materials online, as well as lots of other u
 
 -  [Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
 
--  There's also a course on datacamp. If you haven't already, sign up for a free premium account here: [Datacamp sign up link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership)
+-  There are also great courses on datacamp. If you haven't already, sign up for a free premium account here: [Datacamp sign up link](https://www.datacamp.com/business/partners/Defra-and-datacamp-partnership)
 
 #### Dashboarding guidance
 
@@ -65,11 +65,27 @@ Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Co
 
 ### 4.2 Advertising
 
-We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to our next Data Science Session (17th May; please sign up [here](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx) to receive invites) to share your experience and work with more colleagues that are currently being onboarded to the DASH platform.
+We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to our next Data Science Session (17th May; please sign up [here](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx) to receive invites) to share your experience and work with more colleagues that are currently being onboarded to the DASH platform. 
 
-## 5. Useful links
+# 5 Useful links
+## DASH
+- [DASH Sharepoint page](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
+- [DASH SharePoint](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
+- Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
+- Please get in touch with [datascience@defra.gov.uk](mailto:datascience@defra.gov.uk) if you have any questions or suggestions.
 
--  [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/)
--  [DASH Sharepoint page](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
--  Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
--  Please get in touch with datascience@defra.gov.uk if you have any questions or suggestions
+## RShiny
+
+- [Mastering Shiny](https://mastering-shiny.org/index.html)
+- [Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
+- [Analysis function: dashboards](https://analysisfunction.civilservice.gov.uk/policy-store/top-tips-for-designing-dashboards/)
+- [Setting UP Git](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#getting-set-up)
+- [GitHub resources](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/git.html#uggithub)
+- [gitignore file](https://git-scm.com/docs/gitignore)
+- [different types of inputs](https://mastering-shiny.org/basic-ui.html)
+- [Using custom CSS in your app](https://shiny.posit.co/r/articles/build/css/) 
+- [CSS for Shiny](https://unleash-shiny.rinterface.com/beautify-css)
+- [Bootstrap](https://mastering-shiny.org/action-layout.html#bootstrap)
+- [Themes](https://mastering-shiny.org/action-layout.html#themes)
+- [Best practices](https://mastering-shiny.org/scaling-intro.html)
+- [Publishing on Posit Connect Server](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/positconnect.html#ugrsc)
