@@ -70,9 +70,6 @@ We hope you enjoyed spending the day on the DASH platform and we hope to see you
 ## 5. Useful links
 
 -  [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/)
-
 -  [DASH Sharepoint page](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
-
 -  Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
-
 -  Please get in touch with datascience@defra.gov.uk if you have any questions or suggestions
