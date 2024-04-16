@@ -67,6 +67,12 @@ Instructions on publishing from RStudio to the Posit server: [Chapter 6 Posit Co
 
 We hope you enjoyed spending the day on the DASH platform and we hope to see you again soon. We would be very keen to invite you to one of our Data Science Sessions or User Forums to share your experience and work with more colleagues. This is part of our efforts to encourage users to familiarize and use DASH, as we move to our live phase of the DASH program.
 
+## 5. Useful links
+
+-  [Playbook](https://dap-prd2-connect.azure.defra.cloud/DASH-Playbook/)
+
 -  [DASH Sharepoint page](https://defra.sharepoint.com/sites/Community448/SitePages/Welcome-to-the-Data-Science-Centre-of-Excellence.aspx)
+
+-  Sign up to our [Data Science Sessions](https://defra.sharepoint.com/sites/Community448/SitePages/Discussion-Sessions-(Coffee-and-Coding).aspx)
 
 -  Please get in touch with datascience@defra.gov.uk if you have any questions or suggestions
