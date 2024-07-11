@@ -104,12 +104,16 @@ source("R/utils.R")
 # }
 
 ui <- dashboardPage(
+  skin = "green",
   dashboardHeader(title = "Penguins"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Adelie", tabName = "adelie"),
       menuItem("Gentoo", tabName = "gentoo"),
-      menuItem("Chinstrap", tabName = "chinstrap")
+      menuItem("Chinstrap", tabName = "chinstrap"),
+      selectInput(
+        "year", label = "Year", choices = unique(data$year)
+      )
     )
   ),
   dashboardBody(
@@ -117,10 +121,10 @@ ui <- dashboardPage(
       tabItem(tabName = "adelie",
               fluidRow(
                 # boxes need to be put in a row (or column)
-                box(selectInput(
-                  "year", label = "Year", choices = unique(data$year)
-                  )),
-                box(plotlyOutput("plot"))
+                # box(selectInput(
+                #   "year", label = "Year", choices = unique(data$year)
+                #   )),
+                box(width = 12, plotlyOutput("plot"))
                 )),
       tabItem(tabName = "gentoo"),
       tabItem(tabName = "chinstrap")
