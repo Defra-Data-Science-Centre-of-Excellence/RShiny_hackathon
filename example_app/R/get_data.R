@@ -6,7 +6,7 @@ library(dplyr)
 # in your environment, so the code below needs running once before 
 # publishing. after that you just need to load the data from the Data folder
 
-# load data
+# # load data
 # penguins <- read.csv("/dbfs/mnt/lab/unrestricted/R_training/penguins.csv")
 # 
 # # clean data - remove NA values

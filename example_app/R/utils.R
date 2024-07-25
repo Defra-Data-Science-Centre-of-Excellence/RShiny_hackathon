@@ -12,8 +12,7 @@ bill_flipper_plot <- function(data, species){
     x = ~bill_length_mm,
     y = ~flipper_length_mm,
     color = ~island,
-    # use the analysis function colour palette
-    colors = c(af_colours(type = "categorical", n = 3)),
+    colors = c("#12436D", "#28A197", "#801650"),
     type = "scatter",
     text = ~island,
     mode = "markers",
