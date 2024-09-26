@@ -6,12 +6,15 @@ library(DT)
 library(shinydashboard)
 library(reactable)
 library(shinyfilter)
-library(shinyWidgets)
 library(datamods)
 
 # Load functions and data from scripts in the R folder
 source("R/get_data.R")
 source("R/utils.R")
+
+#-------------#
+# UI ----
+#-------------#
 
 # Define UI - the UI (user interface) controls the layout and appearance 
 # of your app (the front end)
@@ -20,7 +23,7 @@ ui <- dashboardPage(
   # Set colour theme for the app
   skin = "green",
   
-  # Create header - set title of the app 
+  # Create header - sets title of the app 
   dashboardHeader(title = "RShiny Template"),
   
   # Create sidebar
@@ -28,9 +31,13 @@ ui <- dashboardPage(
     sidebarMenu(
       # add an image at the top of the sidebar - good place for a logo
       div(
+        # set the margin of space around the image - change depending on the image used
         style = "margin:10px 40px 10px 40px;",
         img(
+          # save your image to the images folder and change the filepath here:
           src = "Images/DASH_logo_white.png",
+          # set the height and width depending on the image
+          # (or remove to see how it looks automatically)
           width = "148",
           height = "136"
         )
@@ -47,7 +54,8 @@ ui <- dashboardPage(
   
   # Create main body 
   dashboardBody(
-    # this is a useful bit of html which freezes the header and sidebar on the page
+    # this is a useful bit of html which freezes the header and sidebar 
+    # on the page so they don't move as you scroll
     tags$script(HTML(
       "$('body').addClass('fixed');"
     )),
@@ -62,13 +70,15 @@ ui <- dashboardPage(
           box(
             # Create a dropdown input for the island, populated by the dataset
             selectInput(
-              inputId = "island",
+              inputId = "island", # we use this to reference the dropdown in the server part of the script
               label = "Island",
-              choices = unique(data$island)
+              choices = unique(data$island) # set the choices for the dropdown
             )
           )),
+        
         fluidRow(
           # Create value boxes (the full page width is 12)
+          # the outputIds are used to refer to the boxes in the server part of the script
           valueBoxOutput(outputId = "adelie_box",
                          width = 4),
           valueBoxOutput(outputId = "chinstrap_box",
@@ -83,8 +93,8 @@ ui <- dashboardPage(
             width = 12,
             # The first tab will display the plotly chart
             tabPanel(title = "Chart",
-                     plotlyOutput("plot")),
-            # The second tab will display the table
+                     plotlyOutput("plot")), 
+            # The second tab will display the table with a download button
             tabPanel(
               title = "Table",
               dataTableOutput("table"),
@@ -97,9 +107,11 @@ ui <- dashboardPage(
       tabItem(tabName = "dataset",
               fluidRow(
                 box(title = "Apply filters",
-                      # set up filters
+                    # set up filters - this function is from the datamods package
+                    # and allows you to filter the table like you would in excel
                       select_group_ui(
                         id = "my-filters",
+                        # set each of the parameters to filter on
                         params = list(
                           species = list(inputId = "species",
                                          label = "Species"),
@@ -135,6 +147,10 @@ ui <- dashboardPage(
               ))
     ))
 )
+
+#-------------#
+# Server ----
+#-------------#
 
 # Define server - this contains the instructions needed to build the app (the back end)
 server <- function(input, output) {
@@ -176,7 +192,6 @@ server <- function(input, output) {
   
   # Generate the value boxes - set the values based on the filtered data 
   # and the appearance of the box
-  
   output$adelie_box <- renderValueBox({
     valueBox(subtitle = "Adelie",
              value = filtered_data() %>% filter(species == "Adelie") %>% nrow(),
@@ -216,6 +231,9 @@ server <- function(input, output) {
   
 }
 
+#-------------#
+# Run app ----
+#-------------#
 
 # Run the application
 shinyApp(ui = ui, server = server)
