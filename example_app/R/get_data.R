@@ -3,10 +3,11 @@ library(dplyr)
 
 # loading the data from the data lake works when you run the app locally, 
 # but to publish on the posit server you need to have the data saved 
-# in your environment, so the code below needs running once before 
-# publishing. after that you just need to load the data from the Data folder
+# in your environment.
+# The code below needs running once before publishing. 
+# After that you just need to read the data from the Data folder
 
-# load data
+# # load data
 # penguins <- read.csv("/dbfs/mnt/lab/unrestricted/R_training/penguins.csv")
 # 
 # # clean data - remove NA values
